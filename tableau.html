@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les tableaux en html</title>
+</head>
+
+<body>
+
+    <h1>Mon premier tableau en html</h1>
+    <p>
+        un tableau (balise table ) contient des lignes (balise tr : table row) qui contiennent
+        des cellules (balise td ou th )
+    </p>
+    <h2>exemple </h2>
+    <table height="200" width="400" border="1" align="center">
+        <thead>
+            <tr>
+                <th >Produit</th>
+                <th>Prix</th>
+                <th>marque</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td valign="bottom"  colspan="3" align="center">hp dv6</td>
+             
+            </tr>
+            <tr>
+                <td >dell s5</td>
+                <td rowspan="2">6500.</td>
+                <td>DELL</td>
+            </tr>
+            <tr>
+                <td>sony vaio 3</td>
+              
+                <td>SONY</td>
+            </tr>
+            <tfoot>
+                <tr>
+                   
+                    <td colspan="3" >B</td>
+               
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+
+    <h3>les fusions dans les tableaux </h3>
+
+<table border="1" width="200" height="200" align="center">
+    <tr>
+        <td>A</td>
+        <td colspan="2" >B</td>
+    </tr>
+    <tr>
+        <td rowspan="2">D</td>
+        <td>E</td>
+        <td>F</td>
+    </tr>
+    <tr>
+      
+        <td>H</td>
+        <td>I</td>
+    </tr>
+</table>
+
+</body>
+
+</html>
