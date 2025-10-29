@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les forms part 3</title>
+</head>
+<body>
+    <h1>les forms part 3</h1>
+
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="nom">Nom</label></td>
+                <td><input placeholder="Entrer votre nom" required type="text" name="nom" id="nom"></td>
+            </tr>
+             <tr>
+                <td><label for="prenom">prenom</label></td>
+                <td><input type="text" name="prenom" id="prenom"></td>
+            </tr>
+             <tr>
+                <td><label for="pw">Mot de passe </label></td>
+                <td><input  type="password" required name="pwd" id="pw"></td>
+            </tr>
+             <tr>
+                <td><label for="daten">Date de naissance </label></td>
+                <td><input  type="datetime-local" required name="daten" id="daten"></td>
+            </tr>
+             <tr>
+                <td><label for="email">Email </label></td>
+                <td><input  type="email" required name="email" id="email"></td>
+            </tr>
+             <tr>
+                <td><label for="genre">Genre</label></td>
+                <td>
+                    <label for="homme">Homme</label>
+                    <input value="man" type="radio" name="genre" id="homme">
+                    <label for="femme">Femme</label>
+                    <input value="woman" type="radio" name="genre" id="femme">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="couleur">Couleur </label></td>
+                <td>
+                    <label for="rouge">Rouge</label>
+                    <input  value="rouge" type="checkbox" name="couleur" id="rouge">
+                    <label for="vert">Vert</label>
+                    <input value="vert" type="checkbox" name="couleur" id="vert">
+                    <label for="bleu">Bleu</label>
+                    <input value="bleu" type="checkbox" name="bleu" id="bleu">
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Valider</button></td>
+            </tr>
+        </table>
+
+    </form>
+    
+</body>
+</html>
