@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="">
+        <table border="1" width="300" height="300">
+            <tr>
+                <td>
+                    <label for="np">Nom et prenom : </label>
+                </td>
+                <td><input disabled value="john doe"  required type="text" name="np" id="np"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dn"> Date de naissance : </label>
+                </td>
+                <td>
+                    <input type="date" name="dn" id="dn">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ville"> Ville de naissance : </label>
+                </td>
+                <td>
+                    <select required name="ville" id="ville" multiple size="2">
+                        <option value="" selected></option>
+                        <option value="rabat">janvier</option>
+                        <option value="abidjan">Abidjan</option>
+                        <option value="dakar">Dakar</option>
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="adresse">Adresse : </label></td>
+                <td>
+                    <textarea rows="3" cols="50" name="adresse" id="adressew"></textarea>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input value="20" type="range" step="10" min="0" max="30" name="" id="">
+                    <input value="20" type="number" step="10" min="0" max="30" name="" id="">
+                <input type="" value="" name="">
+                </td>
+                <td></td> 
+            </tr>
+            <tr>
+                <td><button>ok</button></td>
+                <td>
+                    <input type="button" value="un  bouton" >
+                    <input type="reset" value="Annuler" >
+                    <input type="submit" value="Envoyer" >
+                    <button type="reset">RAZ </button>
+                    <button type="button">A coder</button>
+                    <button type="submit">valider</button>
+
+                    <button type="button"  onclick="document.querySelector('marquee').stop()">STOP</button>
+                    <button type="button"  onclick="document.querySelector('marquee').start()">start</button>
+
+                </td>
+            </tr>
+        </table>
+    </form>
+    <marquee style="background-color: red;color:white;font-size: 2em;" behavior="" direction="">news </marquee>
+</body>
+
+</html>
