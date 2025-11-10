@@ -1,0 +1,18 @@
+h2,h1{
+    color: red;
+    background-color: rgb(255, 198, 255);
+}
+
+h2{
+    font-size:1.2em;
+
+}
+p{
+    border:  red 2px solid;
+    padding: 16px 10px ;
+    /* border-radius: 50%;
+    height: 400px; */
+    text-align: center;
+    width: 800px;
+    margin:0 auto;
+}

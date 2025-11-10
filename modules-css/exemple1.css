@@ -1,0 +1,23 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2 {
+  color: #08866f;
+  text-align: center;
+  background-color: #08866f2c;
+}
+h2 {
+  font-size: 1.1em;
+}
+
+p {
+  border: 2px solid #08866f; 
+  padding: 10px 4px 3px ;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin:0 auto;
+  border-radius: 100px;
+
+}
