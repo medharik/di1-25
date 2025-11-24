@@ -1,0 +1,25 @@
+h1{
+    background: yellow;
+
+width: 200px;
+}
+p{
+    background: pink;
+    width: 300px;
+}
+span{
+    background: red;
+    width:40000px;
+}
+a{
+    background: purple;
+    color: white;
+ display: block;
+ border: solid black 2px;
+width: 200px;
+ 
+ 
+}
+a:hover{
+    background: orange;
+}

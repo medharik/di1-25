@@ -1,0 +1,33 @@
+html,body{
+    font-size: 19px;
+}
+ul{
+    /* background-color: yellow; */
+    list-style: none;
+    padding: 0;
+ background: rgba(0, 0, 0, 0.71);
+ font-size: 0em;
+}
+li{
+    /* border: solid 2px rgb(221, 7, 7); */
+  
+    display: inline-block;
+}
+a{
+   
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+   
+
+
+  
+}
+a:hover{
+ background-color:rgb(30, 30, 29);
+}
+a:visited{
+    color: yellow;
+}
