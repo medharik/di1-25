@@ -41,3 +41,12 @@ ul li a:hover{
 background: rgb(56, 56, 56);
 border-bottom: 4px solid red;
 }
+ul + div{
+    background:pink;
+    height: calc(100vh - 30px);
+}
+div img{
+    width: 100%;
+    height: calc(100% - 4px);
+    object-fit: cover;
+}

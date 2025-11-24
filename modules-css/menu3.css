@@ -1,0 +1,45 @@
+
+html{
+    font-size: 20px;
+     font-family: "Roboto", sans-serif;
+}
+ul{
+    font-size: 0;
+    list-style: none;
+
+    text-align: center;
+    background: red;
+    box-shadow: 0px 1px 4px rgb(102, 3, 3);
+}
+
+ul li{
+ /* border: 2px solid black;   */
+ display: inline-block;
+}
+ul li a{
+    display: block;
+   padding: 0 10px;
+   height: 30px;
+   box-sizing: border-box;
+   line-height: 30px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+font-variant: small-caps;
+}
+ul li a:hover{
+    color: green;
+    border-bottom: yellow solid 4px;
+
+}
+
+ul li:nth-child(2n) a{
+    color: yellow;
+    
+}
+div{
+    background: url('images/BLACK-FRIDAY-LY-AB-TEST-STARTER-DESK.avif') no-repeat;
+    background-size: cover;
+    height: calc(100vh - 30px);
+
+}
