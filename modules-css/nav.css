@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul{
+    background: orangered;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+
+}
+a i{
+margin-right: 10px;
+}
+li{
+    /* border: solid 2px red; */
+    display: inline-block;
+   
+}
+
+li:nth-child(2n+1) a{
+    background: green;
+}
+a{
+  
+    display: block;
+    padding:0 10px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    /* permet de garder meme height et width meme si on ajoute le padding ou la bordure */
+    box-sizing: border-box;
+    font-size: 18px;
+    color: white;
+
+   
+}
+a:hover{
+   
+    border-bottom: 4px solid yellow;
+    color: yellow;
+}

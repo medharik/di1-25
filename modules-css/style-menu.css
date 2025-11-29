@@ -1,33 +1,22 @@
-html,body{
-    font-size: 19px;
+*{
+    padding: 0;
+    margin: 0;
 }
 ul{
-    /* background-color: yellow; */
+    background-color: rgb(52, 51, 51);
     list-style: none;
-    padding: 0;
- background: rgba(0, 0, 0, 0.71);
- font-size: 0em;
+   
 }
 li{
-    /* border: solid 2px rgb(221, 7, 7); */
-  
+    /* border: solid 2px rgb(13, 210, 26); */
     display: inline-block;
+    padding: 10px;
+}
+li:hover{
+    background: black;
 }
 a{
-   
-    display: block;
-    padding: 10px;
-    text-decoration: none;
     color: white;
-    font-size: 1rem;
-   
-
-
-  
-}
-a:hover{
- background-color:rgb(30, 30, 29);
-}
-a:visited{
-    color: yellow;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
 }
