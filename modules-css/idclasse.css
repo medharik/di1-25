@@ -1,0 +1,37 @@
+#profile{
+   background: yellow;
+   height: 300px;
+   width: 600px; 
+}
+#photo-profile{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    color: white;
+   
+
+}
+#personal-data{
+    background: red;
+    width: 40%;
+    height: 100%;
+ 
+   
+}
+div{
+
+}
+.bordure{
+ border: 2px solid black;
+ color: pink ;
+
+}
+.alignier{
+    display: inline-block;
+}
+.data{
+    text-align: center;
+    color: white;
+    font-family: Verdana, sans-serif;
+    height: 33%;
+}

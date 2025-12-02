@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+box-sizing: border-box;
+}
+#catalogue{
+    background:rgb(244, 243, 243);
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0px 1px 5px black;
+
+}
+.produit{
+   
+width: calc(25% - 4px );
+display: inline-block;
+
+}
+.image{
+
+ 
+}
+.image > img{
+width: 100%;
+}
+.info{
+ 
+  
+    font-size: 18px;
+
+}
+.info p{
+padding: 5px 5px  5px 5px;
+}
+.info p{
+font-size: 0.6em;
+font-weight: 300;
+
+
+}
+.info p{
+font-size: 0.5em;
+
+}
+.info .price {
+color: red;    
+}
+.info .new{
+    color: green;
+}
+.info .old{
+    color: grey;
+    text-decoration: line-through;
+}
+.bordure{
+     border: solid black 0px;
+}
+.second-image{
+  display: none;
+}
+.produit:hover .second-image{
+    display: inline-block;
+}
+.produit:hover .first-image{
+    display: none;
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#phone {
+  background: grey;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+#entete {
+
+  width: 100%;
+
+}
+#profile {
+  height: 200px;
+}
+#image {
+  height: 300px;
+}
+#social-data {
+  height: 80px;
+}
+#pied {
+  height: 60px;
+}
+.b {
+  border: solid 2px black;
+}
+.eh {
+  width: calc(33% - 5px);
+  display: inline-block;
+  vertical-align: middle;
+}
+#menu {
+  background: red;
+  height: 60px;
+}

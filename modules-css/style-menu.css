@@ -5,18 +5,52 @@
 ul{
     background-color: rgb(52, 51, 51);
     list-style: none;
+
    
+}
+input[type="text"]{
+    border: solid red 4px;
+}
+ul  li{
+
+}
+ul#menu + p{
+
+}
+#entete{
+
+}
+.header{
+
+}
+h2+p{
+    
+}
+ul > li{
+
 }
 li{
     /* border: solid 2px rgb(13, 210, 26); */
     display: inline-block;
     padding: 10px;
+
 }
 li:hover{
     background: black;
 }
+#accueil{
+    background: yellow ;
+    color: red;
+}
 a{
-    color: white;
+    color: white !important;
     text-decoration: none;
     font-family: Arial, sans-serif;
+    background-color: red ;
+}
+
+a{
+    background: purple;
+    color: green;
+
 }
