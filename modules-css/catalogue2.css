@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#catalogue{
+
+    background: rgb(145, 140, 140);
+    width: 1200px;
+    margin:0 auto;
+   
+    
+}
+.produit{
+    width:calc(25% - 3px) ;
+  box-sizing: border-box;
+    height: 400px;
+    display: inline-block;
+    
+ 
+}
+.bordure{
+   border: solid 2px black;
+}

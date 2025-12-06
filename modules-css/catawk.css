@@ -1,0 +1,21 @@
+.produit{
+    min-height: 300px;
+    width: calc( 25% - 10px);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cata{
+ height: auto;
+ width: 1000px;
+ margin: auto;
+
+}
+.produit img{
+    width: 100%;
+}
+.produit p{
+    padding-left: 10px;
+}
+h2{
+    text-align: center;
+}
