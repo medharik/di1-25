@@ -1,0 +1,54 @@
+*{
+    margin: 0;padding: 0;
+}
+html{
+    font-size: 25px;
+}
+#parent{
+    background: pink;
+    width: 800px;
+    min-height: 600px;
+    margin: auto;
+    position: relative;
+}
+.enfant{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    font-size:6rem;
+    text-align: center;
+}
+#rouge{
+    background: red;
+}
+#vert{
+    background: rgba(0, 128, 0, 0.532);
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    z-index: 2;
+}
+#bleu{
+    background: blue;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+}
+#jaune{
+    background: #ffff00dc;
+    position: sticky;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    bottom: 100px;
+    right: 0;
+    z-index: 100;
+}
+#orange{
+    background: orange;
+    width: 100%;
+    position: sticky;
+    top: 100px;
+    z-index: 1000;
+
+}
